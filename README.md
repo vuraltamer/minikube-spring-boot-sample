@@ -24,6 +24,9 @@ kubectl expose deployment vspringtest --type=NodePort --port=8080               
 kubectl get service vspringtest                                                                          # show servis detail
 minikube service vspringtest --url                                                                       # show servis url
 
+    
+![alt text](https://github.com/vuraltamer/spring-boot-mvc-mongodb-sample/blob/master/screenshots/Screenshot%20from%202019-02-24%2021-23-58.png)
+    
     ![alt text](https://github.com/vuraltamer/minikube-spring-boot-sample/blob/main/images/vt_minikube_1.png)
     ![alt text](https://github.com/vuraltamer/minikube-spring-boot-sample/blob/main/images/vt_minikube_2.png)
     ![alt text](https://github.com/vuraltamer/minikube-spring-boot-sample/blob/main/images/vt_minikube_3.png)
