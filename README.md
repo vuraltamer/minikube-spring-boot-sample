@@ -3,19 +3,20 @@ minikube spring-boot embedded mongo
 
 docker login -u vuraltestdocker -p <password> 
 cd /<spring-boot-project-path>
-#start docker    
+# start docker    
 sudo systemctl restart docker
-#list docker images    
+# list docker images    
 sudo docker images
-#build your project for http://hub.docker.com/    
+# build your project for http://hub.docker.com/    
 sudo docker build -t vuraltestdocker/vspringtest:latest -t vuraltestdocker/vspringtest .                 
-#push your project to http://hub.docker.com/
+# push your project to http://hub.docker.com/
 sudo docker push vuraltestdocker/vspringtest:latest
-#run your docker image
+# run your docker image
 sudo docker run -p 8080:8080 vuraltestdocker/vspringtest                                                 
 
-
+#
 minikube ssh                                                                                              
+#
 minikube start
 # show minikube dashboard
 minikube dashboard                                                                                       
