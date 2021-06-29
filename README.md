@@ -1,8 +1,8 @@
 # minikube-spring-boot-sample
 minikube spring-boot embedded mongo
  
-# login docker
-docker login -u vuraltestdocker -p <password> 
+#
+docker login -u vuraltestdocker -p <password> (login docker)
 # change project directory
 cd /<spring-boot-project-path>
 # start docker    
