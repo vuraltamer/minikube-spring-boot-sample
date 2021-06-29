@@ -23,3 +23,9 @@ kubectl get deployments                                                         
 kubectl expose deployment vspringtest --type=NodePort --port=8080                                        # ip and port make public
 kubectl get service vspringtest                                                                          # show servis detail
 minikube service vspringtest --url                                                                       # show servis url
+
+    ![alt text](https://github.com/vuraltamer/minikube-spring-boot-sample/blob/main/images/vt_minikube_1.png)
+    ![alt text](https://github.com/vuraltamer/minikube-spring-boot-sample/blob/main/images/vt_minikube_2.png)
+    ![alt text](https://github.com/vuraltamer/minikube-spring-boot-sample/blob/main/images/vt_minikube_3.png)
+    ![alt text](https://github.com/vuraltamer/minikube-spring-boot-sample/blob/main/images/vt_minikube_4.png)
+    ![alt text](https://github.com/vuraltamer/minikube-spring-boot-sample/blob/main/images/vt_minikube_5.png)
