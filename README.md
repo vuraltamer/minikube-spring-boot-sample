@@ -10,9 +10,9 @@ sudo systemctl restart docker (start docker)
 #     
 sudo docker images (list docker images)
 #     
-sudo docker build -t vuraltestdocker/vspringtest:latest -t vuraltestdocker/vspringtest .  (build your project for http://hub.docker.com/)           
+sudo docker build -t vuraltestdocker/vspringtest:latest -t vuraltestdocker/vspringtest 
 # 
-sudo docker push vuraltestdocker/vspringtest:latest (push your project to http://hub.docker.com/)
+sudo docker push vuraltestdocker/vspringtest:latest
 # 
 sudo docker run -p 8080:8080 vuraltestdocker/vspringtest (run your docker image)                                                 
 
